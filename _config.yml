@@ -56,9 +56,11 @@ content:
     content:
       - layout: top-center
         title: Video Generation
-        link: https://sandman002.github.io/vidsty/
-        link_text: Project Website
         additional_links:
+          - title:  Project Page
+            icon: fa fa-link fa-lg
+            url: https://sandman002.github.io/vidsty/
+          
           - title:  Code
             icon: fab fa-github fa-lg
             url: https://github.com/sandman002/MyVideoGeneration
