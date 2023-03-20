@@ -1,0 +1,173 @@
+# Site
+repository: sproogen/resume-theme
+favicon: images/favicon.ico
+
+# Content configuration version
+version: 2
+
+# Personal info
+name: Sandeep Manandhar, PhD
+title: Post-doctoral Researcher
+email: manandhar.sandeep@gmail.com
+
+
+# Dark Mode (true/false/never)
+darkmode: false
+
+# Social links
+
+github_username:  sandman002
+# stackoverflow_username: "00000001"
+# dribbble_username: jekyll
+# facebook_username: jekyll
+# flickr_username: jekyll
+linkedin_username: sandeep-manandhar-phd-b04578100
+# xing_username: jekyll
+# pinterest_username: jekyll
+youtube_username: Sairyuva
+# googleplus_username: +jekyll
+# orcid_username: 0000-0000-0000-0000
+
+# Additional icon links
+# additional_links:
+# - title: itsgoingto.be
+#   icon: fas fa-globe
+#   url: https://www.itsgoingto.be
+# - title: another link
+#   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&m=free)
+#   url: Link url (eg. https://google.com)
+
+# Google Analytics and Tag Manager
+# Using more than one of these may cause issues with reporting
+# gtm: "GTM-0000000"
+# gtag: "UA-00000000-0"
+# google_analytics: "UA-00000000-0"
+
+# About Section
+# about_title: About Me
+about_profile_image: images/profile.jpg
+about_content: | # this will include new lines to allow paragraphs
+  I am a Post-doctoral researcher working at <a href="https://www.ibens.ens.fr/spip.php?rubrique47&lang=en">Auguste Genevesio's lab</a> in École normale supérieure, Paris. My research mainly focuses on video learning, video generation and generative adeversarial networks.
+
+  I finished my PhD research on 3D optical flow field for volumetric microscopy sequences in 2019 under the supervision of <a href="https://team.inria.fr/serpico/team-members/patrick-bouthemy/">Patrick Bouthemy</a> and <a href="https://team.inria.fr/serpico/team-members/charles-kervrann-2/">Charles Kervrann</a> at INRIA, Rennes.
+content:
+  - title: Peer-reviewed Publications # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: top-center
+        title: Video Generation
+        link: https://sandman002.github.io/vidsty/
+        link_text: Project Website
+        additional_links:
+          - title:  Code
+            icon: fab fa-github fa-lg
+            url: https://github.com/sandman002/MyVideoGeneration
+          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
+          #   icon: fab fa-github
+          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
+        quote: >
+          <mark>Python</mark> <mark>Pytorch</mark> <mark>Video Generation</mark> <mark>StyleGAN2</mark> <mark>time2vec</mark>
+        description: | # this will include new lines to allow paragraphs
+          In this work, I propose a condition video generation method using sinusoid bases for temporal style. The method allows for interpolation of addtional attributes without interfereing with the temporal semantics. Further, it provides a nice compact way to invert a video in the context of GAN-inversion.
+
+      - layout: top-center
+        title: "SAVGAN:Self-Attention Based Video Generation, ISBI,2021"
+        additional_links:
+          - title:  Code
+            icon: fab fa-github fa-lg
+            url: https://github.com/sandman002/IBENS-SAVGAN
+
+          - title:  Paper
+            icon: fas fa-file-pdf fa-lg
+            url: https://github.com/sandman002/IBENS-SAVGAN/blob/main/slides/Manandhar_2021___Video_generation.pdf
+
+          - title:  slides
+            icon: fas fa-file-powerpoint fa-lg
+            url: https://github.com/sandman002/IBENS-SAVGAN/blob/main/slides/SAVGAN_SM_presentation.pdf
+          - title: video
+            icon: "fab fa-youtube fa-lg icon-red"
+            url: https://youtu.be/4D8N-qr9WSA
+        quote: >
+          <mark>Python</mark> <mark>Pytorch</mark> <mark>Video Generation</mark> <mark>Self-Attention</mark> <mark>Nystrom Approximation</mark>
+        description: | # this will include new lines to allow paragraphs
+          In this work, I propose to use the Nystrom-based approximation of 3D self-attention matrix in order to generate videos. This greatly reduces the complexity of computing the Self-Attention matrix for huge feature maps often encountered when performing 3D CNN in context of video processing.
+
+      - layout: top-center
+        title: "3D Flow Field Estimation and Assessment, Bioinformatics Oxford, 2019"
+        additional_links:
+          - title:  Paper
+            icon: fa fa-link fa-lg
+            url: https://doi.org/10.1093/bioinformatics/btz780
+        quote: >
+          <mark>C++</mark> <mark>CImg</mark> <mark>3D Optical flow</mark> <mark>Visualization</mark> <mark>3D Structure tensor</mark>
+        description: | # this will include new lines to allow paragraphs
+          In this work, I propose a Census signature based 3D PatchMatch algorithm to compute discrete 3D motion field which is further refined using a variational optimization scheme. Further, I present two different ways based on projection of 3D vectors to visualize the color-code flow field. I also present a novel 3D stucture tensor based method to evaluate the computed flow field, which computes structural similarity between real source volume and a warped volume.
+
+      - layout: top-center
+        title: "3D optical flow estimation combining 3D Census signature and total variation regularization, ISBI 2019 (Oral)"
+        additional_links:
+          - title:  Paper
+            icon: fa fa-link fa-lg
+            url: https://ieeexplore.ieee.org/document/9098690
+          - title: video
+            icon: "fa fa-youtube fa-lg icon-red"
+            url: https://youtu.be/4D8N-qr9WSA
+        quote: >
+          <mark>C++</mark> <mark>CImg</mark> <mark>3D Optical flow</mark> <mark>3D Structure tensor</mark>
+        description: | # this will include new lines to allow paragraphs
+          In this work, I propose a 3D Census signature based data-term for variational optical flow computation. I also extend TV-L1 based method for optical flow field to 3D and show that our census signature based data-term produces much better results than the usual L1-based data-term.
+
+
+  - title: Experience # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: left
+        title: Post-doctoral Researcher
+        link: https://www.ibens.ens.fr/spip.php?article135
+        link_text: team website
+        caption: April 2020 - Present
+        quote: >
+          
+        description: | # this will include new lines to allow paragraphs
+           Deep learning based approach for video processing. Video generation, dynamic transfer, and supervision of masters students.
+
+  - title: Education # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: left
+        title: University of Rennes 1, France
+        link: https://team.inria.fr/serpico/
+        link_text: team website
+        caption: 2016 - 2019
+        sub_title: PhD
+        quote: >
+          
+        description: | # this will include new lines to allow paragraphs
+          PhD thesis on 3D optical flow field computation, visualization and assessment.
+
+      - layout: left
+        title: University of Burgundy, France
+        link: https://www.vibot.org/msc-in-computer-vision.html
+        link_text: website
+        caption: 2014 - 2016
+        sub_title: Masters in Computer vision and Robotics
+        quote: >
+          
+        description: | # this will include new lines to allow paragraphs
+          Image Processing, Multi-view geometry, robot navigation
+
+
+
+# Footer
+footer_show_references: true
+# references_title: References on request (Override references text)
+
+# Build settings
+remote_theme: sproogen/resume-theme
+
+sass:
+  sass_dir: _sass
+  style: compressed
+
+plugins:
+ - jekyll-seo-tag
