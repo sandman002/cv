@@ -1,2 +1,2 @@
 # cv
-sandman002.github.io/cv
+https://sandman002.github.io/cv/
