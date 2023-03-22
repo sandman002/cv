@@ -50,6 +50,8 @@ about_content: | # this will include new lines to allow paragraphs
   I am a Post-doctoral researcher working at <a href="https://www.ibens.ens.fr/spip.php?rubrique47&lang=en">Auguste Genevesio's lab</a> in École normale supérieure, Paris. My research mainly focuses on video learning, video generation and generative adeversarial networks.
 
   I finished my PhD research on 3D optical flow field for volumetric microscopy sequences in 2019 under the supervision of <a href="https://team.inria.fr/serpico/team-members/patrick-bouthemy/">Patrick Bouthemy</a> and <a href="https://team.inria.fr/serpico/team-members/charles-kervrann-2/">Charles Kervrann</a> at INRIA, Rennes.
+  
+  You can download my CV <a href=https://raw.githubusercontent.com/sandman002/cv/main/Curriculum_Vitae.pdf>here<i class="fa-solid fa-file-pdf"></i></a>.
 content:
   - title: Peer-reviewed Publications # Title for the section
     layout: list # Type of content section (list/text)
