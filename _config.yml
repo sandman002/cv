@@ -57,6 +57,7 @@ content:
     content:
       - layout: top-center
         title: Video Generation
+        sub_title: (Under Review)
         additional_links:
           - title:  Project Page
             icon: fa fa-link fa-lg
