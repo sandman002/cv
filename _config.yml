@@ -65,7 +65,7 @@ content:
           
           - title:  Code
             icon: fab fa-github fa-lg
-            url: https://github.com/sandman002/MyVideoGeneration
+            url: https://github.com/sandman002/CTSVG-Conditional-Temporal-Style-Video-Generator
           # - title:  Github page for project (eg. sproogen/modern-resume-theme)
           #   icon: fab fa-github
           #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
